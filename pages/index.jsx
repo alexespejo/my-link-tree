@@ -24,9 +24,9 @@ export default function Home() {
         <div className="h-1 rounded-full bg-red-200 w-96 animate__animated animate__fadeInLeft animate__delay-1s hidden sm:block"></div>
 
         <span className="flex text-xl animate__animated animate__fadeIn py-4 animate__delay-2s">
-          Hey... {"  "}
+          Hey...
           <span className="ml-1 flex animate__animated animate__fadeIn animate__delay-3s">
-            I'm Alex
+            Im Alex
             <BsFillArrowUpCircleFill
               className={`hidden sm:block ml-2  text-md text-red-200 cursor-pointer ${
                 bio ? "" : "rotate-180"
@@ -41,14 +41,14 @@ export default function Home() {
             bio ? "animate__fadeIn" : "opacity-0"
           } lg:px-60 lg:text-lg lg:mb-8 xl:px-82`}
         >
-          I'm a first year student Orange Coast College pursuing my Associates
+          Im a first year student Orange Coast College pursuing my Associates
           Degree for transfer in Computer Science. I like cooking, card magic
           and coding. I taught myself HTML, CSS, and JavaScript in the summer of
           my junior year and picked up Python during my senior year.{" "}
           <span className="ml-1 hidden sm:inline">
-            I'm current learning the React library and NextJS Framework.
+            Im current learning the React library and NextJS Framework.
           </span>
-          I'm activly looking for new experiences and opportunities to learn and
+          Im activly looking for new experiences and opportunities to learn and
           grow as a developer.
         </div>
         <div className=" flex flex-col justify-center md:flex-row items-center   link-tree-links flex-wrap animate__delay-1s ">
