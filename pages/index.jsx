@@ -17,12 +17,12 @@ export default function Home() {
   return (
     <div id="bg-links" className="link-tree text-white h-screen vertical-bg ">
       <div className="flex flex-col justify-center items-center h-screen">
-        <h1 className=" text-4xl  md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
+        <h1 className=" text-5xl  md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
           Alex Espejo
         </h1>
         <div className="h-1 rounded-full bg-red-200 w-96 animate__animated animate__fadeInLeft animate__delay-1s hidden sm:block"></div>
 
-        <span className="flex text-lg lg:text-xl animate__animated animate__fadeIn py-3 animate__delay-2s backdrop-bg ">
+        <span className="flex text-lg lg:text-xl animate__animated animate__fadeIn animate__delay-2s backdrop-bg mb-3 mt-4 rounded-xl ">
           Oh Hey...
           <span className="ml-1 flex animate__animated animate__fadeIn animate__delay-3s">
             Im Alex
