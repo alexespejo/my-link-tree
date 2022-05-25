@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         <div className="h-1 rounded-full bg-red-200 w-96 animate__animated animate__fadeInLeft animate__delay-1s hidden sm:block"></div>
 
-        <span className="flex text-lg lg:text-xl animate__animated animate__fadeIn py-3 animate__delay-2s">
+        <span className="flex text-lg lg:text-xl animate__animated animate__fadeIn py-3 animate__delay-2s backdrop-bg ">
           Oh Hey...
           <span className="ml-1 flex animate__animated animate__fadeIn animate__delay-3s">
             Im Alex
