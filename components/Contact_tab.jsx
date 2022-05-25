@@ -94,7 +94,7 @@ const Contact_tab = ({ children }) => {
         <div className="p-3">School Email: aespejo@student.cccd.edu</div>
       </div>
       <button
-        className="flex text-3xl px-2 pt-2 m-3 md:m-2 leading-snug text-white w-64  animate__animated animate__fadeIn animate__delay-1s border-b-2 border-blue-900 ease-in-out duration-300 hover:border-red-200 hover:text-pink-200"
+        className="flex text-2xl lg:text-3xl p-1 lg:px-2 lg:pt-2 m-3 md:m-2 leading-snug text-white w-64  animate__animated animate__fadeIn animate__delay-1s border-b-2 border-blue-900 ease-in-out duration-300 hover:border-red-200 hover:text-pink-200"
         onClick={handleOpen}
       >
         <span style={{ color: "white", display: "inherit" }}>{children}</span>

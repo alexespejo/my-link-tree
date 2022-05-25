@@ -45,29 +45,30 @@ export default function Home() {
         >
           Im a first year student Orange Coast College pursuing my Associates
           Degree for transfer in Computer Science. I like cooking, card magic
-          and coding. I taught myself HTML, CSS, and JavaScript in the summer of
-          my junior year and picked up Python during my senior year.{" "}
+          and coding.{" "}
           <span className="ml-1 hidden sm:inline">
-            Im current learning the React library and NextJS Framework.
+            I taught myself HTML, CSS, and JavaScript in the summer of my junior
+            year and picked up Python during my senior year. Im current learning
+            the React library and NextJS Framework.
           </span>
           Im activly looking for new experiences and opportunities to learn and
           grow as a developer.
         </div>
         <div className=" flex flex-col justify-center md:flex-row items-center link-tree-links flex-wrap animate__delay-1s ">
           <Tab link="https://www.linkedin.com/in/alex-espejo-4a604920a/">
-            <BsLinkedin className="mr-2 p-0.5 text-4xl" />
+            <BsLinkedin className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             LinkedIn
           </Tab>
           <Tab link="https://www.instagram.com/_yourpalalex/">
-            <BsInstagram className="mr-2 p-0.5 text-4xl" />
+            <BsInstagram className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             Instagram
           </Tab>
           <Tab link="https://github.com/alexespejo?tab=overview&from=2022-03-01&to=2022-03-11">
-            <BsGithub className="mr-2 p-0.5 text-4xl" />
+            <BsGithub className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             GitHub
           </Tab>
           <Contact_tab>
-            <BsPersonCircle className="mr-2 p-0.5 text-4xl" />
+            <BsPersonCircle className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             Contact
           </Contact_tab>
         </div>
