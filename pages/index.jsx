@@ -20,7 +20,7 @@ export default function Home() {
       className="link-tree text-white h-screen vertical-bg overflow-hidden"
     >
       <div className="flex flex-col justify-center items-center h-screen">
-        <h1 className=" text-4xl lg:text-5xl md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
+        <h1 className=" text-4xl  md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
           Alex Espejo
         </h1>
         <div className="h-1 rounded-full bg-red-200 w-96 animate__animated animate__fadeInLeft animate__delay-1s hidden sm:block"></div>
