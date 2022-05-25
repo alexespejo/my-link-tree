@@ -5,6 +5,7 @@
 @tailwind utilities;
 body {
   font-family: "Varela Round", sans-serif;
+  overflow: hidden;
 }
 .backdrop-bg {
   background: #232946;

@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "animate.css";
 import Tab from "../components/Link_tab";
+import Contact_tab from "../components/Contact_tab";
 
 import {
   BsLinkedin,
@@ -19,13 +20,13 @@ export default function Home() {
       className="link-tree text-white h-screen vertical-bg overflow-hidden"
     >
       <div className="flex flex-col justify-center items-center h-screen">
-        <h1 className=" text-5xl md:text-8xl self-center animate__animated animate__backInUp mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
+        <h1 className=" text-4xl lg:text-5xl md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
           Alex Espejo
         </h1>
         <div className="h-1 rounded-full bg-red-200 w-96 animate__animated animate__fadeInLeft animate__delay-1s hidden sm:block"></div>
 
-        <span className="flex text-xl animate__animated animate__fadeIn py-4 animate__delay-2s">
-          Hey...
+        <span className="flex text-lg lg:text-xl animate__animated animate__fadeIn py-3 animate__delay-2s">
+          Oh Hey...
           <span className="ml-1 flex animate__animated animate__fadeIn animate__delay-3s">
             Im Alex
             <BsFillArrowUpCircleFill
@@ -38,7 +39,7 @@ export default function Home() {
         </span>
 
         <div
-          className={`animate__animated animate__fadeIn animate__delay-1s text-center text-sm p-2 mx-3 duration-500 ease-out   ${
+          className={`opacity-100 text-center text-sm p-2 mx-3 duration-500 ease-out   ${
             bio ? "sm:opacity-100" : "sm:opacity-0"
           } lg:mx-60 lg:text-lg lg:mb-8 xl:mx-82 rounded-xl backdrop-bg`}
         >
@@ -65,10 +66,10 @@ export default function Home() {
             <BsGithub className="mr-2 p-0.5 text-4xl" />
             GitHub
           </Tab>
-          <Tab marker={1}>
+          <Contact_tab>
             <BsPersonCircle className="mr-2 p-0.5 text-4xl" />
             Contact
-          </Tab>
+          </Contact_tab>
         </div>
       </div>
     </div>

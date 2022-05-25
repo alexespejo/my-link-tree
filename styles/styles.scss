@@ -1,9 +1,9 @@
-@import "./bounce-animation";
 .link-tree {
   color: #eaebed;
   background: #232946;
   .link-tree-links {
-    a {
+    a,
+    button {
       background: #364c96;
       border-radius: 10px 10px 5px 5px;
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -12,7 +12,11 @@
     }
   }
 }
-
+.ae-modal {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 #bg-links {
   background-repeat: no-repeat;
   background-size: cover;
