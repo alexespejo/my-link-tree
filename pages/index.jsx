@@ -15,10 +15,7 @@ export default function Home() {
   const [bio, setBio] = useState(false);
 
   return (
-    <div
-      id="bg-links"
-      className="link-tree text-white h-screen vertical-bg overflow-hidden"
-    >
+    <div id="bg-links" className="link-tree text-white h-screen vertical-bg ">
       <div className="flex flex-col justify-center items-center h-screen">
         <h1 className=" text-4xl  md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
           Alex Espejo
