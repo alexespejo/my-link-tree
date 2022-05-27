@@ -72,7 +72,7 @@ export default function Home() {
             <BsPersonCircle className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             Contact
           </Contact_tab>
-          <div className="mx-10 my-3 p-2 rounded-xl text-center backdrop-bg text-sm">
+          <div className="mx-10 my-3 p-2 rounded-xl text-center bg-blue-900 text-sm bg-opacity-50">
             Im looking to expand me web developer skills so if you have any
             suggestions questions, want me to build you anything or work on
             anything feel free reach out and message/email me :)

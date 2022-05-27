@@ -63,7 +63,7 @@ const Contact_tab = ({ children }) => {
           </Typography>
           <div className="h-1 w-1/2 rounded-xl bg-white"></div>{" "}
           <BsXLg
-            className="absolute top-3 right-3 rounded-full shadow text-xl cursor-pointer"
+            className="absolute top-3 right-2 rounded-full shadow text-lg cursor-pointer"
             onClick={handleClose}
           />
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
@@ -99,7 +99,7 @@ const Contact_tab = ({ children }) => {
         <div className="p-3">School Email: aespejo@student.cccd.edu</div>
       </div>
       <button
-        className="flex text-2xl lg:text-3xl px-2 pt-2 lg:px-2 lg:pt-2 m-2 md:m-2 leading-snug text-white w-64 floating border-b-2 border-blue-900 ease-in-out duration-300 hover:border-red-200 hover:text-pink-200"
+        className="flex text-2xl lg:text-3xl px-2 pt-2 lg:px-2 lg:pt-2 m-2 md:m-2 leading-snug text-white w-64   border-b-2 border-blue-900 ease-in-out duration-300 hover:border-red-200 hover:text-pink-200 floating"
         onClick={handleOpen}
       >
         <span style={{ color: "white", display: "inherit" }}>{children}</span>
