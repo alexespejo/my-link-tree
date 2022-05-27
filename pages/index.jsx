@@ -4,7 +4,8 @@ import "animate.css";
 import Tab from "../components/Link_tab";
 import Contact_tab from "../components/Contact_tab";
 import Head from "next/head";
-
+import Image from "next/image";
+import logo from "../public/logo.png";
 import {
   BsLinkedin,
   BsInstagram,
@@ -54,7 +55,7 @@ export default function Home() {
             the React library and NextJS Framework.
           </span>
         </div>
-        <div className=" flex flex-col justify-center items-center md:flex-row md:flex-wrap link-tree-links  animate__delay-1s overflow-y-scroll hide-scrollbar">
+        <div className=" flex flex-col justify-center items-center md:flex-row md:flex-wrap link-tree-links  animate__delay-1s overflow-y-scroll hide-scrollbar animate__animated animate__fadeIn animate__delay-1s">
           <Tab link="https://www.linkedin.com/in/alex-espejo-4a604920a/">
             <BsLinkedin className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             LinkedIn
@@ -71,6 +72,11 @@ export default function Home() {
             <BsPersonCircle className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             Contact
           </Contact_tab>
+          <div className="mx-10 my-3 p-2 rounded-xl text-center backdrop-bg text-sm">
+            Im looking to expand me web developer skills so if you have any
+            suggestions questions, want me to build you anything or work on
+            anything feel free reach out and message/email me :)
+          </div>
         </div>
       </div>
     </div>

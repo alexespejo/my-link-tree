@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { BsFillJournalBookmarkFill } from "react-icons/bs";
+import { BsFillJournalBookmarkFill, BsXLg } from "react-icons/bs";
 import { Modal, Box, Typography, Popover } from "@mui/material";
-import Image from "next/image";
-import logo from "../public/logo.png";
+
 const style = {
   position: "absolute",
   top: "50%",
@@ -62,10 +61,11 @@ const Contact_tab = ({ children }) => {
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Contact
           </Typography>
-          <div className="h-1 w-1/2 rounded-xl bg-white"></div>
-          <div className="absolute top-2 right-2 rounded-full shadow bg-black w-12 h-12">
-            <Image src={logo} layout="fill" alt="Picture of the author" />
-          </div>
+          <div className="h-1 w-1/2 rounded-xl bg-white"></div>{" "}
+          <BsXLg
+            className="absolute top-3 right-3 rounded-full shadow text-xl cursor-pointer"
+            onClick={handleClose}
+          />
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             General Email:{" "}
             <span
@@ -99,7 +99,7 @@ const Contact_tab = ({ children }) => {
         <div className="p-3">School Email: aespejo@student.cccd.edu</div>
       </div>
       <button
-        className="flex text-2xl lg:text-3xl px-2 pt-2 lg:px-2 lg:pt-2 m-2 md:m-2 leading-snug text-white w-64  animate__animated animate__fadeIn animate__delay-1s border-b-2 border-blue-900 ease-in-out duration-300 hover:border-red-200 hover:text-pink-200"
+        className="flex text-2xl lg:text-3xl px-2 pt-2 lg:px-2 lg:pt-2 m-2 md:m-2 leading-snug text-white w-64 floating border-b-2 border-blue-900 ease-in-out duration-300 hover:border-red-200 hover:text-pink-200"
         onClick={handleOpen}
       >
         <span style={{ color: "white", display: "inherit" }}>{children}</span>
