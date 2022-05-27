@@ -3,7 +3,7 @@ import { useState } from "react";
 import "animate.css";
 import Tab from "../components/Link_tab";
 import Contact_tab from "../components/Contact_tab";
-
+import Head from "next/head";
 import {
   BsLinkedin,
   BsInstagram,
@@ -15,7 +15,10 @@ export default function Home() {
   const [bio, setBio] = useState(false);
 
   return (
-    <div id="bg-links" className="link-tree text-white h-screen vertical-bg ">
+    <div id="bg-links" className="link-tree text-white vertical-bg ">
+      <Head>
+        <title>Alex Espejo</title>
+      </Head>
       <div className="flex flex-col justify-center items-center h-screen">
         <h1 className=" text-5xl  md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
           Alex Espejo
@@ -27,7 +30,7 @@ export default function Home() {
           <span className="ml-1 flex animate__animated animate__fadeIn animate__delay-3s">
             Im Alex
             <BsFillArrowUpCircleFill
-              className={`hidden sm:block ml-2  text-md text-red-200 cursor-pointer ${
+              className={`hidden lg:block ml-2  text-md text-red-200 cursor-pointer ${
                 bio ? "" : "rotate-180"
               } ease-in-out duration-300`}
               onClick={() => setBio(!bio)}
@@ -36,14 +39,14 @@ export default function Home() {
         </span>
 
         <div
-          className={`opacity-100 text-center text-sm p-2 mx-3 duration-500 ease-out   ${
-            bio ? "sm:opacity-100" : "sm:opacity-0"
+          className={`hidden lg:block opacity-100 text-center text-sm p-2 mx-3 duration-500 ease-out   ${
+            bio ? "lg:opacity-100" : "opacity-0"
           } lg:mx-60 lg:text-lg lg:mb-8 xl:mx-82 rounded-xl backdrop-bg`}
         >
           Im a first year student Orange Coast College pursuing my Associates
           Degree for transfer in Computer Science. I like cooking, card magic
           and coding.{" "}
-          <span className="ml-1 hidden sm:inline">
+          <span className="ml-1 hidden lg:inline">
             I taught myself HTML, CSS, and JavaScript in the summer of my junior
             year and picked up Python during my senior year. Im current learning
             the React library and NextJS Framework.
