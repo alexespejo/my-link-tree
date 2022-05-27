@@ -4,6 +4,7 @@ import "animate.css";
 import Tab from "../components/Link_tab";
 import Contact_tab from "../components/Contact_tab";
 import Head from "next/head";
+
 import {
   BsLinkedin,
   BsInstagram,
@@ -19,6 +20,7 @@ export default function Home() {
       <Head>
         <title>Alex Espejo</title>
       </Head>
+
       <div className="flex flex-col justify-center items-center h-screen">
         <h1 className=" text-5xl  md:text-8xl self-center animate__animated animate__backInUp mb-1 lg:mb-8 ease-in-out duration-300 test-color rounded-xl backdrop-bg">
           Alex Espejo
@@ -44,17 +46,15 @@ export default function Home() {
           } lg:mx-60 lg:text-lg lg:mb-8 xl:mx-82 rounded-xl backdrop-bg`}
         >
           Im a first year student Orange Coast College pursuing my Associates
-          Degree for transfer in Computer Science. I like cooking, card magic
+          Degree for transfer in Computer Science. I like cooking, card magic``
           and coding.{" "}
           <span className="ml-1 hidden lg:inline">
             I taught myself HTML, CSS, and JavaScript in the summer of my junior
             year and picked up Python during my senior year. Im current learning
             the React library and NextJS Framework.
           </span>
-          Im activly looking for new experiences and opportunities to learn and
-          grow as a developer.
         </div>
-        <div className=" flex flex-col justify-center md:flex-row items-center link-tree-links flex-wrap animate__delay-1s ">
+        <div className=" flex flex-col justify-center items-center md:flex-row md:flex-wrap link-tree-links  animate__delay-1s overflow-y-scroll hide-scrollbar">
           <Tab link="https://www.linkedin.com/in/alex-espejo-4a604920a/">
             <BsLinkedin className="mr-2 p-0.5 text-3xl lg:text-4xl" />
             LinkedIn

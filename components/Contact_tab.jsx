@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { BsFillJournalBookmarkFill } from "react-icons/bs";
 import { Modal, Box, Typography, Popover } from "@mui/material";
+import Image from "next/image";
+import logo from "../public/logo.png";
 const style = {
   position: "absolute",
   top: "50%",
@@ -61,6 +63,9 @@ const Contact_tab = ({ children }) => {
             Contact
           </Typography>
           <div className="h-1 w-1/2 rounded-xl bg-white"></div>
+          <div className="absolute top-2 right-2 rounded-full shadow bg-black w-12 h-12">
+            <Image src={logo} layout="fill" alt="Picture of the author" />
+          </div>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             General Email:{" "}
             <span
